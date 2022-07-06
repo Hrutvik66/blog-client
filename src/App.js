@@ -6,7 +6,6 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Signup from "./pages/Signup";
 import Add_document from "./pages/Add_document";
-import Bookmark from "./pages/Bookmark";
 import Horizontal from "./components/navbar/Horizontal";
 import News_info from "./pages/News_info";
 import Profile from "./pages/Profile";
@@ -21,7 +20,6 @@ const App = () => {
         <Route path="signup" element={<Signup />} />
         <Route path="add_document" element={<Add_document />} />
         <Route path="profile" element={<Profile />} />
-        <Route path="bookmarks" element={<Bookmark />} />
         <Route path="/:id" element={<News_info />} />        
         <Route
           path="*"
