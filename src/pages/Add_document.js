@@ -28,20 +28,20 @@ const Add_document = () => {
     e.preventDefault();
   }
   return (
-    <div className="ml-[9rem] py-[4rem] pr-[5rem] space-y-4 h-screen text-center">
+    <div className="p-[5rem] space-y-4 h-screen text-center">
       <h1 className="font-bold text-xl">Create a News</h1>
       <input
         type="text"
         placeholder="Title"
         name="title"
         onChange={handleChange}
-        className="placeholder-gray-400 border-gray-400 border-[1.5px] p-2 px-3 w-full focus:outline-none focus:border-violet-600 rounded-md"
+        className="placeholder-gray-400 border-gray-400 border-[1.5px] p-2 px-3 w-full focus:outline-none focus:border-red-600 rounded-md"
       />
       <select
         name="category"
         defaultValue="--Select Category--"
         onChange={handleChange}
-        className="placeholder-gray-400 border-gray-400 border-[1.5px] p-2 px-3 w-full focus:outline-none focus:border-violet-600 rounded-md"
+        className="placeholder-gray-400 border-gray-400 border-[1.5px] p-2 px-3 w-full focus:outline-none focus:border-red-600 rounded-md"
       >
         <option value="--Select Category--" disabled>
           Select Category
@@ -64,7 +64,7 @@ const Add_document = () => {
       />
        <button
             type="submit"
-            className="w-[8rem] bg-violet-700 p-2 rounded-md text-white focus:ring ring-violet-500 ring-offset-4"
+            className="w-[8rem] bg-red-700 p-2 rounded-md text-white focus:ring ring-red-500 ring-offset-4"
             onClick={handleSubmit}
           >
             Create

@@ -13,7 +13,7 @@ const News_info = () => {
         className="h-[25rem] w-[50rem]"
       />
       <div className="flex space-x-2 text-xs items-center">
-        <p className="text-white bg-violet-600 p-[2px] px-[5px] rounded">
+        <p className="text-white bg-red-600 p-[2px] px-[5px] rounded">
           Politics
         </p>
         <p className="text-gray-600">1 Jun, 2022</p>

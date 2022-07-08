@@ -103,7 +103,7 @@ const Login = () => {
     <div className="flex items-center justify-center h-screen p-5">
       <div>
         <div>
-          <LockClosedIcon className="mx-auto h-12 w-12 text-indigo-600" />
+          <LockClosedIcon className="mx-auto h-12 w-12 text-green-400" />
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Sign in to your account
           </h2>
@@ -154,7 +154,7 @@ const Login = () => {
         <div>
           <button
             type="submit"
-            className="w-full bg-violet-700 p-2 rounded-md text-white focus:ring ring-violet-500 ring-offset-4"
+            className="w-full bg-indigo-700 p-2 rounded-md text-white focus:ring ring-indigo-500 ring-offset-4"
             onClick={handleSubmit}
           >
             Log in
